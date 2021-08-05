@@ -1,0 +1,89 @@
+#header-title{ 
+    font-family: "futura-pt";
+
+    line-height: 1.6em;
+    letter-spacing: .4px;
+    font-weight: 300;
+    font-style: normal;
+    color:black;
+
+    font-weight: 700px;
+    font-style: oblique;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+    
+
+#header-menu{
+    align-content: center;
+ 
+}
+
+.para{
+    font-family: "futura-pt";
+    font-size: 19px;
+    line-height: 1.6em;
+    letter-spacing: .4px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(31,37,38,.75);
+}
+
+#about{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    margin-left: -2%;
+}
+
+#footer{
+    background-image: url("footer.jpg");
+    background-repeat: no-repeat;
+    margin-left: -2%;
+
+}
+#service{
+    background-image: url("https://t3.ftcdn.net/jpg/03/65/75/56/360_F_365755691_ylmF7k7q0wxMLIaeZdR7DcKBcKOf5Yot.jpg");
+    background-repeat: repeat;
+}
+
+#card1{
+    background-color: rgba(245, 245, 245, 0.4);
+  
+}
+
+#card2{
+    background-color: rgba(245, 245, 245, 0.4);
+
+}
+
+#card3{
+    background-color: rgba(245, 245, 245, 0.4);
+
+}
+
+#form i {
+position: absolute;
+right: 10px;
+visibility: hidden;
+}
+
+#form small{
+    visibility: hidden;
+}
+
+.form-control error{
+    border-color: #e74c3c;
+
+}
+
+.form-control error i.fa-exclamation-circle{
+    visibility: visible;
+    border-color: #e74c3c;
+}  
+
+.form-control error small{
+    visibility: visible;
+    border-color: #e74c3c;
+
+}
