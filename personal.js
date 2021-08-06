@@ -36,11 +36,24 @@ $(document).ready(function(){
         },
 
     })
+
+    $("#signup-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbw6yG0dtXJP8KkcxK_eaPE6zIB06ziBHukXKnz8K2-B3IkY6t3gc60o4ZTv5Vxv_gN2nQ/exec",
+            data:$("#signup-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
 })
 
-function popup()
-{   if(fname==true && sname==true && email==true && contact==true )
-    {
-    alert("Thank you for your response");
-}
-}
+
