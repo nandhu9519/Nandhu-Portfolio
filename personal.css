@@ -30,16 +30,16 @@
     color: rgba(31,37,38,.75);
 }
 
-#about{
+.first-section{
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
-    margin-left: -2%;
+    
 }
 
 #footer{
     background-image: url("footer.jpg");
     background-repeat: no-repeat;
-    margin-left: -2%;
+   
 
 }
 #service{
